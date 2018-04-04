@@ -5,8 +5,8 @@
 ##
 
 cask_packages=(
-	smcfancontrol torguard atom google-chrome firefox
-	vlc java iterm2
+#	smcfancontrol torguard atom google-chrome firefox
+#	vlc java iterm2
 )
 
 function check_homebrew_cask_package() {
