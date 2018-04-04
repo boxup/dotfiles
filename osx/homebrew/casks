@@ -5,7 +5,7 @@
 ##
 
 cask_packages=(
-	jave
+	java
 #	smcfancontrol torguard atom google-chrome firefox
 #	vlc java iterm2
 )
