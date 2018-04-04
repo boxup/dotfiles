@@ -54,7 +54,7 @@ if [[ -d "$dotfiles_directory" ]]; then
 	success "Initial Install: Dotfiles are already installed"
 else
 	info "Initial Install: Dotfiles are not installed, downloading now"
-	if git clone https://github.com/JasonYao/dotfiles.git "$dotfiles_directory" &> /dev/null ; then
+	if git clone https://github.com/boxup/dotfiles.git "$dotfiles_directory" &> /dev/null ; then
 		success "Initial Install: Dotfiles are now installed, running configuration now"
 	else
 		fail "Initial Install: Dotfiles failed to download, please check your internet connection"
