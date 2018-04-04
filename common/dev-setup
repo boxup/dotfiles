@@ -5,10 +5,10 @@
 ##
 
 # Python env stuff
-	python_versions=(3.6.3 2.7.13)
+	python_versions=(3.6.4 2.7.14)
 
 # Ruby env stuff
-	ruby_versions=(2.4.1)
+	ruby_versions=(2.5.1)
 
 # Python check and set
 	if [[ $(which pyenv) == "" ]] && [[ $(uname -s) == "Linux" ]]; then
