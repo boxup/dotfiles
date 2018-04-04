@@ -5,13 +5,8 @@
 ##
 
 cask_packages=(
-	smcfancontrol synergy filezilla torguard flux
-	little-snitch micro-snitch
-	atom jetbrains-toolbox
-	google-chrome firefox
-	vlc qbittorrent mactex texmaker
-	discord java iterm2
-	skype
+	smcfancontrol torguard atom google-chrome firefox
+	vlc java iterm2
 )
 
 function check_homebrew_cask_package() {
