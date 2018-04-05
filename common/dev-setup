@@ -5,7 +5,7 @@
 ##
 
 # Python env stuff
-	python_versions=(3.6.4 2.7.14)
+	python_versions=(3.6.5 2.7.14)
 
 # Ruby env stuff
 	ruby_versions=(2.5.1)

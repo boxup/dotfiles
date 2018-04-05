@@ -43,9 +43,9 @@ export dotfiles_directory
 # Installs xcode command line tools and accepts the license
 if [[ "$(uname -s)" == "Darwin" ]]; then
 	if install_xcode ; then
-		success "Xcode: Command-line tools successfully installed"
+#		success "Xcode: Command-line tools successfully installed"
 	else
-		fail "Xcode: Command-line tools failed to be installed"
+	#	fail "Xcode: Command-line tools failed to be installed"
 	fi
 fi
 

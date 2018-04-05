@@ -49,3 +49,5 @@
 		PATH="/usr/local/opt/make/libexec/gnubin:$PATH"
 		MANPATH="/usr/local/opt/make/libexec/gnuman:$MANPATH"
 	fi
+# Run twolfson/sexy-bash-prompt
+. ~/.bash_prompt
